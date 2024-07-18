@@ -1,0 +1,8 @@
+[
+{
+  "directory": "F:/C++Pro/Git/DataStructure/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/app.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\app.dir\\main.cpp.obj -c F:\\C++Pro\\Git\\DataStructure\\main.cpp",
+  "file": "F:/C++Pro/Git/DataStructure/main.cpp",
+  "output": "CMakeFiles/app.dir/main.cpp.obj"
+}
+]
