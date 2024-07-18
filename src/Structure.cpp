@@ -76,3 +76,28 @@ int SearchStructure::Guess(int num)
     else
         return 0;
 }
+/// @brief 搜索元素插入位置
+/// @param nums 数组
+/// @param target 元素
+/// @return 元素位置
+int SearchStructure::SearchInsert(vector<int> &nums, int target)
+{
+    int left = 0;
+    int right = nums.size() - 1;
+    int mid = 0;
+    if(right==-1) return 0;
+    else if(nums[right]<target) return right+1;
+    while (left < right)
+    {
+        mid = left + (right - left) / 2;
+        if (nums[mid] < target)
+        {
+            left = mid + 1;
+        }
+        else
+        {
+            right = mid;
+        }
+    }
+    return left;
+}

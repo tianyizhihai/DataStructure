@@ -46,5 +46,11 @@
     "bold": false,
     "italic": false
   }
-]
+],
+"files.associations": {
+  "vector": "cpp",
+  "array": "cpp",
+  "string_view": "cpp",
+  "initializer_list": "cpp"
+}
 }

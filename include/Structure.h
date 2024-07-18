@@ -31,5 +31,10 @@ namespace LJM::Structure
         /// @param num 要比较的数
         /// @return -1 num>Pick 1 num<Pick 0 num==Pick
         int Guess(int num);
+        /// @brief 搜索元素插入位置
+        /// @param nums 数组
+        /// @param target 元素
+        /// @return 元素位置
+        int SearchInsert(vector<int> &nums, int target);
     };
 }
